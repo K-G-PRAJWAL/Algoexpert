@@ -11,11 +11,11 @@ def youngestCommonAncestor(topAncestor, descendant1, descendant2):
         return backtrackAncestralTree(descendant2, descendant1, depth2-depth1)
 
 
-def getDescendantDepth(descesdant, topAncestor):
+def getDescendantDepth(descendant, topAncestor):
     depth = 0
-    while decesdant != topAncestor:
+    while descendant != topAncestor:
         depth += 1
-        descesdant = descesdant.ancestor
+        descendant = descendant.ancestor
     return depth
 
 

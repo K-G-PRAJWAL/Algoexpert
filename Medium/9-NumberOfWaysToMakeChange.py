@@ -1,4 +1,8 @@
 def numberOfWays(n, denoms):
+    """
+    Time: O(ND), D = No. of Denominations
+    Space: O(N), N = Target Amount
+    """
     ways = [0 for amount in range(n + 1)]
     ways[0] = 1
     for denom in denoms:

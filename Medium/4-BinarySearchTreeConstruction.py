@@ -82,5 +82,5 @@ class BST:
 def getMinValue(self):
     curr = self
     while curr.left is not None:
-        curr.curr = curr.left
+        curr = curr.left
     return curr.value

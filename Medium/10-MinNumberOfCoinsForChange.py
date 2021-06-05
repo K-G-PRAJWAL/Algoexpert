@@ -1,4 +1,8 @@
 def minNumberOfCoinsForChange(n, denoms):
+    """
+    Time: O(ND), D = No of denominations
+    Space: O(N), N = Amount
+    """
     numOfCoins = [float("inf") for amount in range(n + 1)]
     numOfCoins[0] = 0
     for denom in denoms:

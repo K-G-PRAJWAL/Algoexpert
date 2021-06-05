@@ -14,7 +14,7 @@ def smallestDifference(A, B):
         first = A[i]
         second = B[j]
         if first < second:
-            diff = second - first
+            curr = second - first
             i += 1
         elif second < first:
             curr = first - second

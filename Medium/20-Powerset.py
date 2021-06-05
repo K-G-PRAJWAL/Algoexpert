@@ -6,10 +6,10 @@
 #     '''
 #     subset = [[]]
 #     for element in array:
-#         for i in range(len(subsets)):
+#         for i in range(len(subset)):
 #             currSubset = subset[i]
 #             subset.append(currSubset+[element])
-#     return subsets
+#     return subset
 
 
 # Solution 2
